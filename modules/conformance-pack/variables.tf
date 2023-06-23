@@ -8,3 +8,8 @@ variable "parameter_overrides" {
   description = "A map of parameters names to values to override from the template"
   default     = {}
 }
+
+variable "name" {
+  type        = string
+  description = "The Name of the Conformance Pack"
+}
